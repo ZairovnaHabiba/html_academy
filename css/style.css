@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url('../imges/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 897px;
+    margin: 0 auto;
+}
+
+#tasks {
+    padding: 95px 0px 125px 0px;
+    margin: 0px 226px;
+}
+
+.tasks-title {
+    font-size: 36px;
+    font-weight: 700px;
+    color: #333;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+.list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    padding: 30px 35px;
+    width: 847px;
+    background-color: #2e2c9c;
+    margin: 10px 0px;
+}
+
+.item>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    width: 700px;
+}
+
+.top::before {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 88px;
+    background-image: url('https://assets.htmlacademy.ru/img/tutors/ruler-icon.svg');
+    margin-right: 30px;
+    background-repeat: no-repeat;
+}
+
+.middle::before {
+    content: '';
+    display: block;
+    width: 160px;
+    height: 88px;
+    background-image: url('https://assets.htmlacademy.ru/img/tutors/consulting-icon.svg');
+    margin-right: 30px;
+    background-repeat: no-repeat;
+}
+
+.bottom::before {
+    content: '';
+    display: block;
+    width: 180px;
+    height: 88px;
+    background-image: url('	https://assets.htmlacademy.ru/img/tutors/bottle-icon.svg');
+    margin-right: 30px;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-size: 20px;
+    padding: 5px 0px 0px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 700px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
