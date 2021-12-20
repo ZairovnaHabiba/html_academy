@@ -44,7 +44,7 @@ body {
     margin: 10px 0px;
 }
 
-.item>div {
+.item .div {
     display: flex;
     justify-content: center;
     align-items: center;
