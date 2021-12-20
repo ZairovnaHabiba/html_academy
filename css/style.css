@@ -22,6 +22,7 @@ body {
 }
 
 .tasks-title {
+    font-family: sans-serif;
     font-size: 36px;
     font-weight: 700px;
     color: #333;
@@ -29,7 +30,7 @@ body {
     text-align: center;
 }
 
-.list {
+.tasks-list {
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -37,14 +38,26 @@ body {
     align-items: center;
 }
 
-.item {
+.tasks-item {
     padding: 30px 35px;
     width: 847px;
     background-color: #2e2c9c;
     margin: 10px 0px;
 }
 
-.item>div {
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,14 +97,14 @@ body {
     background-repeat: no-repeat;
 }
 
-.title {
+.tasks-div-title {
     font-size: 20px;
     padding: 5px 0px 0px;
     color: #fff;
     margin-bottom: 5px;
 }
 
-.text {
+.tasks-div-text {
     font-size: 16px;
     font-weight: 700px;
     color: #fff;
